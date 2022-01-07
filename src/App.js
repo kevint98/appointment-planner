@@ -38,6 +38,9 @@ function App() {
 
 	return (
 		<>
+			<header>
+				<h1>Appointment Planner Challenge</h1>
+			</header>
 			<nav>
 				<NavLink to={ROUTES.CONTACTS} activeClassName="active">
 					Contacts
